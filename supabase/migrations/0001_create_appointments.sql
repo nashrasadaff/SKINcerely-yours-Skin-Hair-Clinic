@@ -1,4 +1,4 @@
--- Lumiere Skin & Hair Clinic — appointment requests
+-- SKINcerely Yours Skin & Hair Clinic — appointment requests
 -- Run in Supabase SQL editor, or `supabase db push` with the CLI.
 
 create table if not exists public.appointments (

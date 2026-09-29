@@ -1,4 +1,4 @@
-# Lumiere Skin & Hair Clinic
+# SKINcerely Yours Skin & Hair Clinic
 
 A patient-facing website for a **Consultant Dermatologist, Dermatosurgeon, Cosmetologist & Hair Transplant Surgeon** — built with **Next.js (App Router) + Tailwind CSS v4 + TypeScript**, with **Supabase** powering the appointment-booking form.
 
@@ -13,7 +13,7 @@ The visual system is the **botanical-spa** design adapted into a full doctor's s
 - **Credential strip** — degrees, dermatosurgery certification, FUE hair transplant, IADVL · ISHRS membership, no-upsell promise
 - **About / qualifications** — portrait illustration plus a 6-card credential grid (degrees, KMC registration, dermatosurgery, hair transplant, cosmetology, memberships)
 - **7 service cards** — acne & acne-scar, pigmentation & melasma, anti-ageing/botox/fillers, laser hair reduction, hair fall & PRP, hair transplant consultation, dermatosurgery & minor OT
-- **Why Lumiere** — differentiator checklist plus a 4-stat cluster (12,000+ patients · 4.9★ · 14 yrs · 30 min consult)
+- **Why SKINcerely Yours** — differentiator checklist plus a 4-stat cluster (12,000+ patients · 4.9★ · 14 yrs · 30 min consult)
 - **Results** — honest before/after timeline cards (illustrated placeholders, ready for real consented photos)
 - **Reviews** — testimonial cards plus a "Rated 4.9 by 1,840 patients" banner
 - **FAQ** — native `<details>` accordion, 8 answers including dermatosurgery-in-clinic
@@ -86,17 +86,17 @@ supabase/
 
 ## Making it real (placeholders to replace)
 
-All placeholder values live in **`src/lib/clinic.ts`** — change them once:
+All site-wide details live in **`src/lib/clinic.ts`** — change them once:
 
-| Field | Current placeholder |
+| Field | Current value |
 | --- | --- |
-| Doctor | Dr. Ananya Rao, MBBS, MD (DVL) |
-| Registration | KMC Reg. No. 54XXX |
-| Phone / WhatsApp | +91 98765 43210 |
-| Email | hello@lumiereclinic.in |
-| Address / hours | 2nd Floor, Koramangala · Mon–Sat 10–7 |
+| Doctor | Dr. Shahnoor Ali Khan |
+| Registration | Telangana Medical Council Registered Practitioner |
+| Phone / WhatsApp | +91 94931 23000 · +91 81217 81781 |
+| Email | *(empty — hidden until a real one is added)* |
+| Address / hours | New Malakpet, Malakpet, Hyderabad · Mon–Fri 5–8pm, Sat 11–1, Sun closed |
 
-Also swap: the illustrated portrait/results SVGs for real consented photography, the Google-review count, and the social links in the footer.
+Still to verify with the clinic: the stats (12,000+ patients · 4.9★ · 14 yrs), the testimonials (currently sample copy), the illustrated before/after results cards, and the social links in the footer.
 
 ## Future implementation plans + expansions
 

@@ -14,9 +14,9 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Lumiere Skin & Hair Clinic — Dr. Ananya Rao | Dermatologist, Dermatosurgeon & Hair Transplant Surgeon, Bengaluru",
+  title: "SKINcerely Yours Skin & Hair Clinic — Dr. Shahnoor Ali Khan | Dermatologist, Dermatosurgeon & Hair Transplant Surgeon, Hyderabad",
   description:
-    "Lumiere Skin & Hair Clinic in Koramangala, Bengaluru. Dr. Ananya Rao, MBBS MD (DVL) — Consultant Dermatologist, Dermatosurgeon, Cosmetologist & Hair Transplant Surgeon. Acne, pigmentation, lasers, PRP, FUE hair transplant and dermatosurgery. Book a consultation.",
+    "SKINcerely Yours Skin & Hair Clinic in Malakpet, Hyderabad. Dr. Shahnoor Ali Khan — Consultant Dermatologist, Dermatosurgeon, Cosmetologist & Hair Transplant Surgeon. Acne, pigmentation, lasers, PRP, FUE hair transplant and dermatosurgery. Book a consultation.",
 };
 
 export default function RootLayout({

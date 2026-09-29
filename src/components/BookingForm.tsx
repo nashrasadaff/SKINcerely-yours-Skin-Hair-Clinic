@@ -18,11 +18,11 @@ export default function BookingForm() {
       <div className="form-row">
         <div className="field">
           <label htmlFor="f-name">Your name</label>
-          <input id="f-name" name="name" type="text" autoComplete="name" placeholder="Ananya Sharma" required />
+          <input id="f-name" name="name" type="text" autoComplete="name" placeholder="Your name" required />
         </div>
         <div className="field">
           <label htmlFor="f-phone">Phone</label>
-          <input id="f-phone" name="phone" type="tel" autoComplete="tel" placeholder="+91 98765 43210" required />
+          <input id="f-phone" name="phone" type="tel" autoComplete="tel" placeholder="+91 9XXXX XXXXX" required />
         </div>
       </div>
       <div className="field">

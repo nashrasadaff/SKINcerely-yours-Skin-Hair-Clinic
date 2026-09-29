@@ -1,7 +1,7 @@
 const faqs = [
   {
     q: "What happens in a first consultation?",
-    a: "A full 30 minutes with Dr. Rao: history, medication review, dermatoscopic or trichoscopic examination, and standardised photographs. You leave with a written plan, a realistic result window and an itemised cost estimate. Nothing is performed on day one unless you ask for it.",
+    a: "A full 30 minutes with Dr. Khan: history, medication review, dermatoscopic or trichoscopic examination, and standardised photographs. You leave with a written plan, a realistic result window and an itemised cost estimate. Nothing is performed on day one unless you ask for it.",
   },
   {
     q: "Are the treatments safe for Indian and deeper skin tones?",
@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Is botox or filler going to look obvious?",
-    a: "Not the way we dose it. Dr. Rao treats conservatively and reviews you at two weeks to top up if needed — it is far easier to add a little than to dissolve too much. Expression is preserved by design.",
+    a: "Not the way we dose it. Dr. Khan treats conservatively and reviews you at two weeks to top up if needed — it is far easier to add a little than to dissolve too much. Expression is preserved by design.",
   },
   {
     q: "Do you push treatment packages?",
@@ -25,11 +25,11 @@ const faqs = [
   },
   {
     q: "Are dermatosurgical procedures done in the clinic?",
-    a: "Yes — Lumiere has a sterile in-clinic minor OT. Mole and cyst excision, ear-lobe repair, scar revision, nail surgery and vitiligo grafting are day-care procedures under local anaesthesia, performed by Dr. Rao herself with written pre- and post-op instructions.",
+    a: "Yes — SKINcerely Yours has a sterile in-clinic minor OT. Mole and cyst excision, ear-lobe repair, scar revision, nail surgery and vitiligo grafting are day-care procedures under local anaesthesia, performed by Dr. Khan himself with written pre- and post-op instructions.",
   },
   {
     q: "Where are you located and when are you open?",
-    a: "2nd Floor, Koramangala, Bengaluru — lift access and parking in the building. We're open Monday to Saturday, 10:00am to 7:00pm. Sunday is reserved for post-procedure reviews by appointment.",
+    a: "16-4-766/2, Near Bank of Baroda, Subedar Ameer Ali Khan Road, New Malakpet, Malakpet, Hyderabad. We're open Monday to Friday, 5:00pm to 8:00pm, and Saturday 11:00am to 1:00pm. The clinic is closed on Sundays.",
   },
 ];
 

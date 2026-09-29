@@ -4,7 +4,7 @@ import { clinic } from "@/lib/clinic";
 const reasons = [
   {
     title: "One doctor, start to finish",
-    body: `${clinic.doctor.split(" ").pop() === "Rao" ? "Dr. Rao" : clinic.doctor} performs every injectable, laser and PRP session herself — no rotating technicians.`,
+    body: `${clinic.doctor} performs every injectable, laser and PRP session himself — no rotating technicians.`,
   },
   {
     title: "US-FDA approved devices only",
