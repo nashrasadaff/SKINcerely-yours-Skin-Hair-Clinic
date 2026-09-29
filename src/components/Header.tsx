@@ -1,4 +1,4 @@
-import { LeafMark } from "./Icons";
+import Image from "next/image";
 import { clinic } from "@/lib/clinic";
 
 const links = [
@@ -15,8 +15,8 @@ export default function Header() {
     <header className="site-header">
       <div className="wrap nav">
         <a className="brand" href="#top" aria-label={`${clinic.nameFull}, home`}>
-          <span className="brand-mark" aria-hidden="true">
-            <LeafMark />
+          <span className="brand-mark" style={{ overflow: "hidden" }} aria-hidden="true">
+            <Image src="/logo.png" alt="" width={42} height={42} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </span>
           <span>
             {clinic.name}

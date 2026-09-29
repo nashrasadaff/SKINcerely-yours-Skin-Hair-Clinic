@@ -1,4 +1,4 @@
-import { LeafMark } from "./Icons";
+import Image from "next/image";
 import { clinic, waLink } from "@/lib/clinic";
 
 const treatments = [
@@ -30,8 +30,8 @@ export default function Footer() {
       <div className="wrap footer-top">
         <div className="footer-about">
           <a className="brand" href="#top">
-            <span className="brand-mark" aria-hidden="true">
-              <LeafMark />
+            <span className="brand-mark" style={{ overflow: "hidden" }} aria-hidden="true">
+              <Image src="/logo.png" alt="" width={42} height={42} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </span>
             <span>
               {clinic.name}
