@@ -34,24 +34,28 @@ export default function Contact() {
                   <div>
                     <b>Call us</b>
                     <a href={`tel:${clinic.phone}`}>{clinic.phoneDisplay}</a>
+                    <br />
+                    <a href={`tel:${clinic.phone2}`}>{clinic.phone2Display}</a>
                   </div>
                 </li>
                 <li>
                   <i aria-hidden="true"><WhatsApp size={18} /></i>
                   <div>
                     <b>WhatsApp</b>
-                    <a href={waLink("Hello Lumiere Clinic")} target="_blank" rel="noopener">
+                    <a href={waLink()} target="_blank" rel="noopener">
                       {clinic.phoneDisplay}
                     </a>
                   </div>
                 </li>
-                <li>
-                  <i aria-hidden="true"><Mail /></i>
-                  <div>
-                    <b>Email</b>
-                    <a href={`mailto:${clinic.email}`}>{clinic.email}</a>
-                  </div>
-                </li>
+                {clinic.email !== "" && (
+                  <li>
+                    <i aria-hidden="true"><Mail /></i>
+                    <div>
+                      <b>Email</b>
+                      <a href={`mailto:${clinic.email}`}>{clinic.email}</a>
+                    </div>
+                  </li>
+                )}
                 <li>
                   <i aria-hidden="true"><Pin /></i>
                   <div>
@@ -96,7 +100,7 @@ export default function Contact() {
               </svg>
               <div className="map-pin">
                 <b>{clinic.nameFull}</b>
-                <span>2nd Floor, Koramangala · 5 min from Forum Mall</span>
+                <span>Near Bank of Baroda, Subedar Ameer Ali Khan Rd, Malakpet</span>
               </div>
             </div>
           </div>

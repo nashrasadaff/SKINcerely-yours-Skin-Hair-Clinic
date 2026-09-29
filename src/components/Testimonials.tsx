@@ -4,28 +4,28 @@ const testimonials = [
   {
     initials: "MK",
     name: "Meera K.",
-    tag: "Melasma · Indiranagar",
+    tag: "Melasma · Saidabad",
     quote:
-      "I'd been through three clinics for melasma. Dr. Rao was the first to explain why it kept returning and to put sun behaviour before lasers. Eight months on, my face finally looks like one colour.",
+      "I'd been through three clinics for melasma. Dr. Khan was the first to explain why it kept returning and to put sun behaviour before lasers. Eight months on, my face finally looks like one colour.",
   },
   {
     initials: "RS",
     name: "Rahul S.",
-    tag: "Hair fall & PRP · HSR Layout",
+    tag: "Hair fall & PRP · Dilsukhnagar",
     quote:
       "I came in convinced I needed a transplant. I was told to wait six months and try medical therapy first. That honesty saved me two lakhs — and my crown filled in anyway.",
   },
   {
     initials: "AD",
     name: "Anjali D.",
-    tag: "Injectables · Koramangala",
+    tag: "Injectables · Malakpet",
     quote:
-      "Botox that nobody noticed — which was exactly the brief. She treats one muscle at a time and asks you to come back in two weeks instead of overfilling on day one.",
+      "Botox that nobody noticed — which was exactly the brief. He treats one muscle at a time and asks you to come back in two weeks instead of overfilling on day one.",
   },
   {
     initials: "TN",
     name: "Tara N.",
-    tag: "Laser hair reduction · Whitefield",
+    tag: "Laser hair reduction · Santosh Nagar",
     quote:
       "Laser hair reduction on deep brown skin always scared me. The cooling, the patch test, the written settings — I felt informed rather than sold to. Six sessions and done.",
   },

@@ -1,8 +1,8 @@
 const items = [
-  "MBBS · MD Dermatology (DVL)",
+  "Consultant Dermatologist",
   "Certified Dermatosurgeon",
-  "FUE Hair Transplant Surgeon",
-  "IADVL · ISHRS member",
+  "Cosmetologist",
+  "Hair Transplant Surgeon",
   "No-upsell promise",
 ];
 
