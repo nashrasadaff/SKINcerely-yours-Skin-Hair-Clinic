@@ -14,7 +14,6 @@ const SERVICES = [
   "Laser hair reduction",
   "Hair fall & PRP therapy",
   "Hair transplant consultation",
-  "Dermatosurgery & minor OT",
   "Not sure yet — please advise",
 ];
 

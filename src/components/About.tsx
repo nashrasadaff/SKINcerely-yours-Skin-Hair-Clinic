@@ -87,10 +87,6 @@ export default function About() {
             wished existed: quiet rooms, honest timelines, and treatment plans that respect your
             skin barrier as much as your budget.
           </p>
-          <p>
-            Consultations run a full 30 minutes. You&apos;ll leave with a written plan, a realistic
-            result window, and the option to do absolutely nothing until you&apos;re ready.
-          </p>
 
           <div className="credentials">
             {credentials.map((c) => (
