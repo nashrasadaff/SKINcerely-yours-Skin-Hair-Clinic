@@ -8,7 +8,6 @@ const treatments = [
   "Laser hair reduction",
   "Hair fall & PRP",
   "Hair transplant consult",
-  "Dermatosurgery",
 ];
 
 const clinicLinks = [

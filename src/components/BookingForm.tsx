@@ -38,7 +38,6 @@ export default function BookingForm() {
           <option>Laser hair reduction</option>
           <option>Hair fall &amp; PRP therapy</option>
           <option>Hair transplant consultation</option>
-          <option>Dermatosurgery &amp; minor OT</option>
           <option>Not sure yet — please advise</option>
         </select>
       </div>

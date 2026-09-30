@@ -24,10 +24,6 @@ const faqs = [
     a: "Donor-area density mapping, an honest graft-count range, a discussion of long-term native hair protection, and a candid answer on whether you are a candidate yet. Many patients under 30 are advised to stabilise medically first.",
   },
   {
-    q: "Are dermatosurgical procedures done in the clinic?",
-    a: "Yes — SKINcerely Yours has a sterile in-clinic minor OT. Mole and cyst excision, ear-lobe repair, scar revision, nail surgery and vitiligo grafting are day-care procedures under local anaesthesia, performed by Dr. Khan himself with written pre- and post-op instructions.",
-  },
-  {
     q: "Where are you located and when are you open?",
     a: "16-4-766/2, Near Bank of Baroda, Subedar Ameer Ali Khan Road, New Malakpet, Malakpet, Hyderabad. We're open Monday to Friday, 5:00pm to 8:00pm, and Saturday 11:00am to 1:00pm. The clinic is closed on Sundays.",
   },

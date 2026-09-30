@@ -59,18 +59,6 @@ const services = [
       </>
     ),
   },
-  {
-    title: "Dermatosurgery & minor OT",
-    body: "Day-care surgical dermatology under local anaesthesia in our sterile in-clinic OT: mole and cyst excision, ear-lobe repair, scar revision, nail and vitiligo surgeries.",
-    tags: ["Excisions", "Scar revision", "Vitiligo surgery"],
-    icon: (
-      <>
-        <path d="M6 4 18 20M18 4 6 20" stroke="currentColor" strokeWidth="1.9" fill="none" strokeLinecap="round" />
-        <circle cx="9.5" cy="9.5" r="1.6" fill="currentColor" />
-        <circle cx="14.5" cy="14.5" r="1.6" fill="currentColor" />
-      </>
-    ),
-  },
 ];
 
 export default function Services() {
@@ -86,7 +74,7 @@ export default function Services() {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 14.5 9.5 22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z" /></svg>
             Treatments we grow with you
           </span>
-          <h2>Seven focused pathways, one gentle philosophy.</h2>
+          <h2>Six focused pathways, one gentle philosophy.</h2>
           <p className="lede">
             We treat skin and scalp as living tissue — restore the barrier, then refine. Every
             pathway begins with diagnosis, not a device.

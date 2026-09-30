@@ -12,11 +12,11 @@ The visual system is the **botanical-spa** design adapted into a full doctor's s
 - **Hero** — doctor's four credentials as the eyebrow, primary/WhatsApp/ghost CTAs, trust-strip stats, animated botanical figure with floating info badges
 - **Credential strip** — degrees, dermatosurgery certification, FUE hair transplant, IADVL · ISHRS membership, no-upsell promise
 - **About / qualifications** — portrait illustration plus a 6-card credential grid (degrees, KMC registration, dermatosurgery, hair transplant, cosmetology, memberships)
-- **7 service cards** — acne & acne-scar, pigmentation & melasma, anti-ageing/botox/fillers, laser hair reduction, hair fall & PRP, hair transplant consultation, dermatosurgery & minor OT
+- **6 service cards** — acne & acne-scar, pigmentation & melasma, anti-ageing/botox/fillers, laser hair reduction, hair fall & PRP, hair transplant consultation
 - **Why SKINcerely Yours** — differentiator checklist plus a 4-stat cluster (12,000+ patients · 4.9★ · 14 yrs · 30 min consult)
 - **Results** — honest before/after timeline cards (illustrated placeholders, ready for real consented photos)
 - **Reviews** — testimonial cards plus a "Rated 4.9 by 1,840 patients" banner
-- **FAQ** — native `<details>` accordion, 8 answers including dermatosurgery-in-clinic
+- **FAQ** — native `<details>` accordion, 7 answers
 - **Contact & booking** — appointment request form that **inserts into Supabase**, clinic details list (call / WhatsApp / email / address / hours) and a map card
 - **Floating WhatsApp button** — `wa.me` deep link with a prefilled message
 - **Footer** — treatments index, clinic links, contact block
@@ -66,7 +66,7 @@ src/
     Hero.tsx                 # eyebrow credentials, CTAs, trust strip, botanical art + badges
     CredentialStrip.tsx      # sage divider strip of credentials
     About.tsx                # doctor portrait + 6-card qualifications grid
-    Services.tsx             # 7 pebble service cards
+    Services.tsx             # 6 pebble service cards
     Why.tsx                  # differentiators + stat cluster
     Results.tsx              # before/after illustrated cards
     Testimonials.tsx         # review cards + 4.9 rating banner
