@@ -85,12 +85,12 @@ export default function Results() {
         <div className="section-head center">
           <span className="eyebrow">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 17l5-6 4 4 4-6 5 8H3Z" /></svg>
-            Real, unretouched progress
+            Illustrated treatment timelines
           </span>
-          <h2>Slow results, honestly photographed.</h2>
+          <h2>Slow results, honestly shown.</h2>
           <p className="lede">
-            Every image below is captured in our standardised light box at the same distance and
-            angle. Timelines are the actual ones, not best-case.
+            The illustrations below stand in for real case photos while we collect consented
+            before/after photography. Timelines reflect typical treatment courses, not best-case.
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export default function Results() {
 
         <p className="results-note">
           Individual results vary with skin type, adherence and underlying medical conditions.
-          Images shared with written patient consent.
+          Illustrations shown pending consented patient photography.
         </p>
       </div>
     </section>

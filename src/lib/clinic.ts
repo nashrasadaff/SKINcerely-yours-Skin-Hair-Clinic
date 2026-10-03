@@ -19,6 +19,7 @@ export const clinic = {
   hours: "Monday – Friday\n5:00pm – 8:00pm\nSaturday\n11:00am – 1:00pm\nSunday — Closed",
   hoursShort: "Mon–Fri 5–8pm · Sat 11–1pm",
   location: "Malakpet, Hyderabad",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://skincerelyyours.in",
 } as const;
 
 export function waLink(
